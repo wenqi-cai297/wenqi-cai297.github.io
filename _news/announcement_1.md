@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-01-09 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I will be presenting a talk at **[ISID 2025](https://www.jaist.ac.jp/event/design2025/#program)**.  
+- **Wenqi Cai, Chao Zhang**, Improving the Explainability of Neural Network with Swarm Optimization
