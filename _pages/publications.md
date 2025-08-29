@@ -17,8 +17,6 @@ nav_order: 2
 
 ## Conference Papers
 
-{% bibliography %}
-
 <!-- Display only conference papers from bibliography -->
 
 {% bibliography --query @inproceedings %}
