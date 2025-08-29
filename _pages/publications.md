@@ -16,9 +16,11 @@ nav_order: 2
 <div class="publications">
 
 ## Conference Papers
+
 {% bibliography %}
 
 <!-- Display only conference papers from bibliography -->
+
 {% bibliography --query @inproceedings %}
 
 </div>
