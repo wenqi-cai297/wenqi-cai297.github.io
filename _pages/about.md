@@ -3,9 +3,9 @@ layout: about
 title: about
 permalink: /
 subtitle: "<a href='https://www.u-toyama.ac.jp/'>University of Toyama</a>.<br>
-  3190 Gofuku, Toyama 930-8555, Japan.<br>
-  wenqicai297@gmail.com<br>
-  Extension of innate knowledge."
+          <a href='https://www.labzhang.com/'>KiZuLab</a>.<br>
+          3190 Gofuku, Toyama 930-8555, Japan.<br>
+          wenqicai297@gmail.com"
 
 profile:
   align: right
