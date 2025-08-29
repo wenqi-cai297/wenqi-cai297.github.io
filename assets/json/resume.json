@@ -31,14 +31,14 @@
       "title": "2025年電気学会電子・情報・システム部門大会優秀ポスター賞",
       "date": "2025-8-28",
       "awarder": "2025年電気学会電子・情報・システム部門大会",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "2025年電気学会電子・情報・システム部門大会にて発表した研究が高く評価され、優秀ポスター賞を受賞しました。"
+      "url": "https://www.iee.jp/eiss/event/conf2025/6#conf-header",
+      "summary": "2025年電気学会電子・情報・システム部門大会にて発表した研究'Dataset Distillation with Foreground Extraction'が高く評価され、優秀ポスター賞を受賞しました。"
     }
   ],
   "publications": [
     {
       "name": "Improving the Explainability of Neural Network by Downstream Post-Optimization",
-      "publisher": "Wenqi Cai",
+      "publisher": "Wenqi Cai, Jun Yu, Yawen Zou, Chao Zhang",
       "releaseDate": "2025-08-15",
       "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13737/137370J/Improving-the-explainability-of-neural-network-by-downstream-post-optimization/10.1117/12.3076530.short",
       "summary": "The first paper published by Wenqi Cai during his research student stage."
