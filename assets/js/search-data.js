@@ -38,8 +38,8 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "news-i-will-be-presenting-a-talk-at-isid-2025-wenqi-cai-chao-zhang-improving-the-explainability-of-neural-network-with-swarm-optimization",
-          title: 'I will be presenting a talk at ISID 2025. Wenqi Cai, Chao Zhang,...',
+      },{id: "news-i-will-give-a-presentation-at-isid-2025-wenqi-cai-chao-zhang-improving-the-explainability-of-neural-network-with-swarm-optimization",
+          title: 'I will give a presentation at ISID 2025. Wenqi Cai, Chao Zhang, Improving...',
           description: "",
           section: "News",},{id: "news-my-paper-has-been-officially-published-in-the-proceedings-of-qcav-2025-wenqi-cai-jun-yu-yawen-zou-chao-zhang-improving-the-explainability-of-neural-network-by-downstream-post-optimization",
           title: 'My paper has been officially published in the proceedings of QCAV 2025. Wenqi...',
