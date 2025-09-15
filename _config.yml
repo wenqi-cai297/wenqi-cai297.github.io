@@ -11,7 +11,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Wenqi Cai, Graduate student at University of Toyama, Japan. Explore my latest publications and research updates in computer vision and deep learning.
 footer_text: > # add your own keywords or leave empty
-lang: en, cn # the language of your site (for example: en, fr, cn, ru, etc.)
+lang: en, cn, jp # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://wenqi-cai297.github.io # the base hostname & protocol for your site
