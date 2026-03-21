@@ -68,6 +68,16 @@
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
+- title: Publications
+  type: time_table
+  contents:
+    - year: 2026
+      items:
+        - '**Wenqi Cai**, Yawen Zou, Guang Li, Chunzhi Gu, **Chao Zhang**. EVLF: Early Vision-Language Fusion for Generative Dataset Distillation. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026. [arXiv](https://arxiv.org/abs/2603.07476) [GitHub](https://github.com/wenqi-cai297/earlyfusion-for-dd/) [Project Page](https://wenqi-cai297.github.io/earlyfusion-HP/)'
+    - year: 2025
+      items:
+        - '**Wenqi Cai**, Jun Yu, Yawen Zou, **Chao Zhang**. Improving the explainability of neural network by downstream post-optimization. Seventeenth International Conference on Quality Control by Artificial Vision (QCAV), 2025.'
+
 - title: Honors and Awards
   type: time_table
   contents:
