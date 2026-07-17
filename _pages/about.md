@@ -10,6 +10,7 @@ subtitle: "<a href='https://www.u-toyama.ac.jp/'>University of Toyama</a>.<br>
 profile:
   align: right
   image: 1.png
+  alt: Portrait of Wenqi Cai
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Graduate School of Science and Engineering</p>
