@@ -12,7 +12,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Wenqi Cai, Graduate student at University of Toyama, Japan. Explore my latest publications and research updates in computer vision and deep learning.
 footer_text: > # add your own keywords or leave empty
 lang: en # the primary language of the site
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon-wc.png # the favicon image in /assets/img/
 
 url: https://wenqi-cai297.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
