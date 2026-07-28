@@ -20,10 +20,27 @@ profile:
 selected_papers: False # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
+announcements:
+  enabled: true
+  scrollable: false
+  limit: 5
+
 latest_posts:
   enabled: False
   scrollable: False # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+
+research:
+  areas:
+    - title: Multimodal Learning
+      description: >
+        Learning to extract compact, task-relevant information from rich and often redundant multimodal signals.
+    - title: Representation Learning
+      description: >
+        Learning general-purpose representations from the intrinsic structure of data that transfer effectively across diverse downstream tasks.
+    - title: 3D/4D Vision
+      description: >
+        Understanding how the physical world is structured in space and evolves over time, from dynamic scenes to human motion.
 ---
 
 <p>I am currently an M.Sc. student at University of Toyama, with a research focus on computer vision and deep learning.</p>
