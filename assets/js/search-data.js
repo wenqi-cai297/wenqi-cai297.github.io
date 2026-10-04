@@ -45,8 +45,8 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-present-our-work-as-a-poster-at-cvpr-2026-in-denver-colorado-wenqi-cai-yawen-zou-guang-li-chunzhi-gu-chao-zhang-evlf-early-vision-language-fusion-for-generative-dataset-distillation-arxiv-github",
           title: 'I will present our work as a poster at CVPR 2026 in Denver,...',
           description: "",
-          section: "News",},{id: "news-our-paper-has-been-accepted-to-pricai-2026-acceptance-rate-42-3-with-542-regular-and-230-short-papers-accepted-from-1-825-submissions-yaoting-huang-wenqi-cai-yijin-wei-katsuya-hotta-chunzhi-gu-haoran-xie-and-chao-zhang-trip-ad-logical-anomaly-detection-under-vision-induced-distractions-via-tri-path-normality-scoring",
-          title: 'Our paper has been accepted to PRICAI 2026 (acceptance rate: 42.3%, with 542...',
+          section: "News",},{id: "news-my-paper-has-been-accepted-to-pricai-2026-yaoting-huang-wenqi-cai-yijin-wei-katsuya-hotta-chunzhi-gu-haoran-xie-and-chao-zhang-trip-ad-logical-anomaly-detection-under-vision-induced-distractions-via-tri-path-normality-scoring",
+          title: 'My paper has been accepted to PRICAI 2026. Yaoting Huang, Wenqi Cai, Yijin...',
           description: "",
           section: "News",},{
         id: 'social-email',
