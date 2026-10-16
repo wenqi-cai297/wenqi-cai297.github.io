@@ -43,6 +43,5 @@ research:
         Understanding how the physical world is structured in space and evolves over time, from dynamic scenes to human motion.
 ---
 
-<p>I am currently an M.Sc. student at University of Toyama, with a research focus on computer vision and deep learning.</p>
-<p>I come from Nanchang, Jiangxi, China. Now I’m living in Toyama, Japan, and actively learning Japanese. I’d be happy to make new friends here!</p>
-<p>Outside of my studies, I’m passionate about gaming, especially challenging genres like soul-like, rogue-like, and star-hunting games, while also enjoying more relaxing ones such as Terraria, Dyson Sphere Program, and Slay the Spire. Beyond gaming and research, I also love spending time outdoors with friends—whether it’s walking, hiking, or exploring nature. I also enjoy listening to music in my free time.</p>
+<p>I am a master's student at the University of Toyama. I'm interested in representation learning for visual understanding and prediction, particularly how the organization of a representation space shapes what a model can learn and how its features can be used across tasks.</p>
+<p>I want to understand how heterogeneous modalities can complement one another in a shared space, and how self-supervised learning can preserve useful relationships among features. My goal is to learn representations that remain stable and useful for prediction while retaining important spatial and temporal details. I am also interested in reducing redundant computation, so that richer representations of the physical world can be learned and used efficiently.</p>
