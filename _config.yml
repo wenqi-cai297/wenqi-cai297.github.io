@@ -9,7 +9,7 @@ last_name: Cai
 contact_note: >
   Email: wenqicai297@gmail.com // Github: https://github.com/wenqi-cai297
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Wenqi Cai, Graduate student at University of Toyama, Japan. Explore my latest publications and research updates in computer vision and deep learning.
+  Wenqi Cai, master's student at the University of Toyama. Research in visual and multimodal representation learning, self-supervised learning, and generative modeling.
 footer_text: > # add your own keywords or leave empty
 lang: en # the primary language of the site
 icon: favicon-wc.png # the favicon image in /assets/img/
@@ -592,6 +592,8 @@ jsonresume:
   - projects
   - volunteer
   - awards
+  - conferences
+  - talks
   - certificates
   - skills
   - languages

@@ -8,7 +8,7 @@
         </div>
         <div class="col-12 col-md-10 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">
-            <a href="{{ content.url }}">{{ content.title }}</a>
+            {% if content.url %}<a href="{{ content.url }}">{{ content.title }}</a>{% else %}{{ content.title }}{% endif %}
           </h6>
           <p class="cv-meta ml-1 ml-md-4">{{ content.awarder }}</p>
           <p class="cv-summary ml-1 ml-md-4">{{ content.summary }}</p>

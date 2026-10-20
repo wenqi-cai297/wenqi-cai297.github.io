@@ -32,16 +32,25 @@ latest_posts:
 
 research:
   areas:
-    - title: Multimodal Learning
-      description: >
-        Learning to extract compact, task-relevant information from rich and often redundant multimodal signals.
     - title: Representation Learning
       description: >
-        Learning general-purpose representations from the intrinsic structure of data that transfer effectively across diverse downstream tasks.
-    - title: 3D/4D Vision
+        Organizing visual and multimodal information into representations that support understanding and prediction across tasks.
+    - title: Self-Supervised Learning
       description: >
-        Understanding how the physical world is structured in space and evolves over time, from dynamic scenes to human motion.
+        Studying how relationships among features evolve during training and which structures support useful visual representations.
+    - title: Multimodal Predictive Modeling
+      description: >
+        Learning how heterogeneous modalities can complement one another in shared representations for joint prediction.
+    - title: Computationally Efficient Learning
+      description: >
+        Reducing redundant information and computation in representation learning and generative modeling.
+    - title: 3D/4D Generative Modeling
+      description: >
+        Generating coherent human-object interactions and modeling spatial and temporal relationships in dynamic 3D scenes.
+    - title: Physical AI
+      description: >
+        Exploring how visual and multimodal representations can support understanding and prediction of physical interactions.
 ---
 
-<p>I am a master's student at the University of Toyama. I'm interested in representation learning for visual understanding and prediction, particularly how the organization of a representation space shapes what a model can learn and how its features can be used across tasks.</p>
-<p>I want to understand how heterogeneous modalities can complement one another in a shared space, and how self-supervised learning can preserve useful relationships among features. My goal is to learn representations that remain stable and useful for prediction while retaining important spatial and temporal details. I am also interested in reducing redundant computation, so that richer representations of the physical world can be learned and used efficiently.</p>
+<p>I am a master's student in the Graduate School of Science and Engineering at the University of Toyama, pursuing a Master of Mathematics and Informatics (expected March 2027). I'm interested in representation learning for visual understanding and prediction, particularly how the organization of a representation space shapes what a model can learn and how its features can be used across tasks.</p>
+<p>My research spans vision-language dataset distillation, 3D human-object interaction generation, and self-supervised visual representation learning. I am currently studying how relationships among patch representations evolve during training, with a focus on the causes of structural collapse and dense feature degradation. My goal is to learn representations in which heterogeneous modalities complement one another, preserving useful spatial and temporal details while reducing computational overhead.</p>

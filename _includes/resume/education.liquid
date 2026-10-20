@@ -1,5 +1,5 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% assign education = data[1] | sort: 'startDate' | reverse %}
+  {% assign education = data[1] %}
   {% for content in education %}
     <li class="list-group-item">
       <div class="row">
@@ -9,6 +9,9 @@
             {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
             {% assign date = startDate | append: ' - ' %}
             {% assign date = date | append: endDate %}
+          {% elsif content.endDate %}
+            {% assign graduationDate = content.endDate | append: '-01' | date: '%b. %Y' %}
+            {% assign date = graduationDate | prepend: 'Expected ' %}
           {% else %}
             {% assign date = null %}
           {% endif %}
@@ -36,10 +39,12 @@
         </div>
         <div class="col-12 col-md-10 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">
-            <a href="{{ content.url }}">{{ content.studyType }}</a>
+            {% if content.url %}<a href="{{ content.url }}">{{ content.studyType }}</a>{% else %}{{ content.studyType }}{% endif %}
           </h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.institution }}</h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.area }}</h6>
+          {% if content.score %}<p class="cv-meta ml-1 ml-md-4">GPA: {{ content.score }}</p>{% endif %}
+          {% if content.summary %}<p class="cv-summary ml-1 ml-md-4">{{ content.summary }}</p>{% endif %}
           <ul class="items">
             {% for item in content.courses %}
               <li>
