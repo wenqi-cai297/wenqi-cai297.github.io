@@ -90,56 +90,6 @@
       "publisherUrl": "https://2026.pricai.org/"
     }
   ],
-  "projects": [
-    {
-      "name": "Self-Supervised Visual Representation Learning",
-      "summary": "Exploring the Geometry of Visual Representation Spaces",
-      "startDate": "2026-09",
-      "highlights": [
-        "Reproducing <a href=\"https://github.com/facebookresearch/dinov3\">DINOv3</a> training on ViT-S/16 and ViT-L/16 and analyzing training trajectories to investigate the root causes of dense feature degradation and structural collapse of patch representations.",
-        "Investigating how relationships among patch representations evolve during training and which geometric structures in the representation space better support self-supervised learning and downstream dense prediction."
-      ]
-    },
-    {
-      "name": "Human–Object Interaction Generation",
-      "summary": "ULIFlow: Unified Latent Human-Object Interaction Flow",
-      "startDate": "2026-04",
-      "endDate": "2026-08",
-      "url": "https://openreview.net/forum?id=NFq6bRFZT8",
-      "highlights": [
-        "Proposed ULIFlow for text-conditioned 3D human–object interaction generation, treating continuous dynamic human–object relations as an explicit modality and encoding heterogeneous streams with a query-based Mixture-of-Transformers autoencoder.",
-        "Adapted Diffusion Forcing to block-wise Flow Forcing with progress-aware conditioning, enabling variable-length sequence generation from fixed-length training windows.",
-        "Generated coherent human and object motions jointly without heuristic post-refinement, supporting user-specified durations beyond the training horizon; first-author manuscript under review at ICLR 2027."
-      ],
-      "code": "https://github.com/wenqi-cai297/ULIFlow"
-    },
-    {
-      "name": "Generative Dataset Distillation",
-      "summary": "EVLF: Early Vision-Language Fusion for Generative Dataset Distillation",
-      "startDate": "2025-04",
-      "endDate": "2026-02",
-      "url": "https://arxiv.org/abs/2603.07476",
-      "highlights": [
-        "Proposed EVLF, an early vision–language fusion framework that integrates VAE image latents and class-level text embeddings before diffusion denoising.",
-        "Designed a lightweight cross-attention module trained with InfoNCE semantic alignment and an MSE latent-preservation loss to retain visual structure while incorporating semantic guidance.",
-        "Generated semantically faithful and visually coherent distilled datasets, with consistent gains in downstream classification accuracy across diverse datasets and model architectures; published as first author at CVPR 2026."
-      ],
-      "code": "https://github.com/wenqi-cai297/earlyfusion-for-dd/",
-      "project": "https://wenqi-cai297.github.io/earlyfusion-HP/"
-    },
-    {
-      "name": "Neural Network Explainability",
-      "summary": "Improving the Explainability of Neural Network by Downstream Post-Optimization",
-      "startDate": "2024-06",
-      "endDate": "2025-02",
-      "url": "https://doi.org/10.1117/12.3076530",
-      "highlights": [
-        "Proposed a downstream post-optimization method to address co-occurrence bias in visual explanations of pretrained neural networks.",
-        "Applied Particle Swarm Optimization (PSO) to search fully connected layer weight configurations, selecting candidates using deletion and insertion metrics.",
-        "Reduced attention to irrelevant backgrounds and emphasized foreground features, improving explanation reliability and interpretability; published as first author at QCAV 2025."
-      ]
-    }
-  ],
   "awards": [
     {
       "title": "Recommendation for Tuition Fee Exemption for Outstanding Students",
@@ -241,16 +191,13 @@
   ],
   "languages": [
     {
-      "language": "Chinese",
-      "fluency": "Native"
+      "language": "Chinese"
     },
     {
-      "language": "Japanese",
-      "fluency": "JLPT N1"
+      "language": "Japanese"
     },
     {
-      "language": "English",
-      "fluency": "TOEFL 82"
+      "language": "English"
     }
   ]
 }
