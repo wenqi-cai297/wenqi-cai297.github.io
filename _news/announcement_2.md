@@ -7,4 +7,4 @@ related_posts: false
 
 My paper has been officially published in the proceedings of **[QCAV 2025](https://www.tc-iaip.org/qcav/2025/)**.
 
-- **Wenqi Cai**, Jun Yu, Yawen Zou, **Chao Zhang**, Improving the explainability of neural network by downstream post-optimization
+- **Wenqi Cai**, Jun Yu, Yawen Zou, **Chao Zhang**, [Improving the explainability of neural network by downstream post-optimization](https://doi.org/10.1117/12.3076530)

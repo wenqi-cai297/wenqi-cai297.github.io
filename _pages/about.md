@@ -13,8 +13,8 @@ profile:
   alt: Portrait of Wenqi Cai
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Graduate School of Science and Engineering</p>
-    <p>University of Toyama</p>
+    <p><a href="https://www.gsse.u-toyama.ac.jp/?lang=en">Graduate School of Science and Engineering</a></p>
+    <p><a href="https://www.u-toyama.ac.jp/">University of Toyama</a></p>
     <p>Research in Computer Vision & Deep Learning</p>
 
 selected_papers: False # includes a list of papers marked as "selected={true}"
@@ -38,19 +38,10 @@ research:
     - title: Self-Supervised Learning
       description: >
         Studying how relationships among features evolve during training and which structures support useful visual representations.
-    - title: Multimodal Predictive Modeling
+    - title: Multimodal Learning
       description: >
-        Learning how heterogeneous modalities can complement one another in shared representations for joint prediction.
-    - title: Computationally Efficient Learning
-      description: >
-        Reducing redundant information and computation in representation learning and generative modeling.
-    - title: 3D/4D Generative Modeling
-      description: >
-        Generating coherent human-object interactions and modeling spatial and temporal relationships in dynamic 3D scenes.
-    - title: Physical AI
-      description: >
-        Exploring how visual and multimodal representations can support understanding and prediction of physical interactions.
+        Learning how heterogeneous modalities can complement one another in shared representations for understanding and prediction.
 ---
 
-<p>I am a master's student in the Graduate School of Science and Engineering at the University of Toyama, pursuing a Master of Mathematics and Informatics (expected March 2027). I'm interested in representation learning for visual understanding and prediction, particularly how the organization of a representation space shapes what a model can learn and how its features can be used across tasks.</p>
-<p>My research spans vision-language dataset distillation, 3D human-object interaction generation, and self-supervised visual representation learning. I am currently studying how relationships among patch representations evolve during training, with a focus on the causes of structural collapse and dense feature degradation. My goal is to learn representations in which heterogeneous modalities complement one another, preserving useful spatial and temporal details while reducing computational overhead.</p>
+<p>I am a master's student in the <a href="https://www.gsse.u-toyama.ac.jp/?lang=en">Graduate School of Science and Engineering</a> at the <a href="https://www.u-toyama.ac.jp/">University of Toyama</a>, pursuing a Master of Mathematics and Informatics (expected March 2027). I'm interested in representation learning for visual understanding and prediction, particularly how the organization of a representation space shapes what a model can learn and how its features can be used across tasks.</p>
+<p>My research spans <a href="https://arxiv.org/abs/2603.07476">vision-language dataset distillation</a>, <a href="https://openreview.net/forum?id=NFq6bRFZT8">3D human-object interaction generation</a>, and self-supervised visual representation learning. I am currently studying how relationships among patch representations evolve during training, with a focus on the causes of structural collapse and dense feature degradation. My goal is to learn representations in which heterogeneous modalities complement one another, preserving useful spatial and temporal details while reducing computational overhead.</p>

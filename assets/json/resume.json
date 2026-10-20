@@ -22,7 +22,8 @@
       "studyType": "Master of Mathematics and Informatics",
       "endDate": "2027-03",
       "score": "3.53/4.0",
-      "summary": "Supervisor: Prof. Chao Zhang"
+      "summary": "Supervisor: <a href=\"https://www.labzhang.com/member/\">Prof. Chao Zhang</a>",
+      "areaUrl": "https://www.gsse.u-toyama.ac.jp/?lang=en"
     },
     {
       "institution": "Beijing Information Science & Technology University",
@@ -30,7 +31,9 @@
       "area": "School of Applied Sciences",
       "studyType": "Bachelor of Science in Electronic Information Science and Technology",
       "startDate": "2019-09",
-      "endDate": "2023-07"
+      "endDate": "2023-07",
+      "url": "https://www.bistu.edu.cn/",
+      "areaUrl": "https://science.bistu.edu.cn/"
     }
   ],
   "interests": [
@@ -41,16 +44,7 @@
       "name": "Self-Supervised Learning"
     },
     {
-      "name": "Multimodal Predictive Modeling"
-    },
-    {
-      "name": "Computationally Efficient Learning"
-    },
-    {
-      "name": "3D/4D Generative Modeling"
-    },
-    {
-      "name": "Physical AI"
+      "name": "Multimodal Learning"
     }
   ],
   "publications": [
@@ -60,7 +54,8 @@
       "releaseDate": "2027",
       "url": "https://openreview.net/forum?id=NFq6bRFZT8",
       "summary": "<strong>Wenqi Cai</strong>, Chunzhi Gu, Weichen Zhou, Yawen Zou, Yijin Wei, Ran Dong, Haoran Xie, and Chao Zhang.",
-      "code": "https://github.com/wenqi-cai297/ULIFlow"
+      "code": "https://github.com/wenqi-cai297/ULIFlow",
+      "publisherUrl": "https://iclr.cc/Conferences/2027"
     },
     {
       "name": "EVLF: Early Vision-Language Fusion for Generative Dataset Distillation",
@@ -68,27 +63,32 @@
       "releaseDate": "2026",
       "url": "https://arxiv.org/abs/2603.07476",
       "summary": "<strong>Wenqi Cai</strong>, Yawen Zou, Guang Li, Chunzhi Gu, and Chao Zhang.",
-      "code": "https://github.com/wenqi-cai297/earlyfusion-for-dd/"
+      "code": "https://github.com/wenqi-cai297/earlyfusion-for-dd/",
+      "publisherUrl": "https://cvpr.thecvf.com/Conferences/2026",
+      "project": "https://wenqi-cai297.github.io/earlyfusion-HP/"
     },
     {
       "name": "Improving the Explainability of Neural Network by Downstream Post-Optimization",
       "publisher": "Seventeenth International Conference on Quality Control by Artificial Vision (QCAV 2025)",
       "releaseDate": "2025",
       "url": "https://doi.org/10.1117/12.3076530",
-      "summary": "<strong>Wenqi Cai</strong>, Jun Yu, Yawen Zou, and Chao Zhang."
+      "summary": "<strong>Wenqi Cai</strong>, Jun Yu, Yawen Zou, and Chao Zhang.",
+      "publisherUrl": "https://www.tc-iaip.org/qcav/2025/"
     },
     {
       "name": "Dataset Distillation Based on Saliency-Driven Prototype Alignment",
       "publisher": "AAAI Conference on Artificial Intelligence (AAAI 2027) — under review",
       "releaseDate": "2027",
       "url": "https://arxiv.org/abs/2607.25318",
-      "summary": "Yawen Zou, <strong>Wenqi Cai</strong>, Guang Li, Ling Xiao, Chunzhi Gu, and Chao Zhang."
+      "summary": "Yawen Zou, <strong>Wenqi Cai</strong>, Guang Li, Ling Xiao, Chunzhi Gu, and Chao Zhang.",
+      "publisherUrl": "https://aaai.org/conference/aaai/aaai-27/"
     },
     {
       "name": "TriP-AD: Logical Anomaly Detection under Vision-Induced Distractions via Tri-Path Normality Scoring",
       "publisher": "23rd Pacific Rim International Conference on Artificial Intelligence (PRICAI 2026) — accepted",
       "releaseDate": "2026",
-      "summary": "Yaoting Huang, <strong>Wenqi Cai</strong>, Yijin Wei, Katsuya Hotta, Chunzhi Gu, Haoran Xie, and Chao Zhang."
+      "summary": "Yaoting Huang, <strong>Wenqi Cai</strong>, Yijin Wei, Katsuya Hotta, Chunzhi Gu, Haoran Xie, and Chao Zhang.",
+      "publisherUrl": "https://2026.pricai.org/"
     }
   ],
   "projects": [
@@ -97,7 +97,7 @@
       "summary": "Exploring the Geometry of Visual Representation Spaces",
       "startDate": "2026-09",
       "highlights": [
-        "Reproducing DINOv3 training on ViT-S/16 and ViT-L/16 and analyzing training trajectories to investigate the root causes of dense feature degradation and structural collapse of patch representations.",
+        "Reproducing <a href=\"https://github.com/facebookresearch/dinov3\">DINOv3</a> training on ViT-S/16 and ViT-L/16 and analyzing training trajectories to investigate the root causes of dense feature degradation and structural collapse of patch representations.",
         "Investigating how relationships among patch representations evolve during training and which geometric structures in the representation space better support self-supervised learning and downstream dense prediction."
       ]
     },
@@ -106,24 +106,27 @@
       "summary": "ULIFlow: Unified Latent Human-Object Interaction Flow",
       "startDate": "2026-04",
       "endDate": "2026-08",
-      "url": "https://github.com/wenqi-cai297/ULIFlow",
+      "url": "https://openreview.net/forum?id=NFq6bRFZT8",
       "highlights": [
         "Proposed ULIFlow for text-conditioned 3D human–object interaction generation, treating continuous dynamic human–object relations as an explicit modality and encoding heterogeneous streams with a query-based Mixture-of-Transformers autoencoder.",
         "Adapted Diffusion Forcing to block-wise Flow Forcing with progress-aware conditioning, enabling variable-length sequence generation from fixed-length training windows.",
         "Generated coherent human and object motions jointly without heuristic post-refinement, supporting user-specified durations beyond the training horizon; first-author manuscript under review at ICLR 2027."
-      ]
+      ],
+      "code": "https://github.com/wenqi-cai297/ULIFlow"
     },
     {
       "name": "Generative Dataset Distillation",
       "summary": "EVLF: Early Vision-Language Fusion for Generative Dataset Distillation",
       "startDate": "2025-04",
       "endDate": "2026-02",
-      "url": "https://github.com/wenqi-cai297/earlyfusion-for-dd/",
+      "url": "https://arxiv.org/abs/2603.07476",
       "highlights": [
         "Proposed EVLF, an early vision–language fusion framework that integrates VAE image latents and class-level text embeddings before diffusion denoising.",
         "Designed a lightweight cross-attention module trained with InfoNCE semantic alignment and an MSE latent-preservation loss to retain visual structure while incorporating semantic guidance.",
         "Generated semantically faithful and visually coherent distilled datasets, with consistent gains in downstream classification accuracy across diverse datasets and model architectures; published as first author at CVPR 2026."
-      ]
+      ],
+      "code": "https://github.com/wenqi-cai297/earlyfusion-for-dd/",
+      "project": "https://wenqi-cai297.github.io/earlyfusion-HP/"
     },
     {
       "name": "Neural Network Explainability",
@@ -143,14 +146,16 @@
       "title": "Recommendation for Tuition Fee Exemption for Outstanding Students",
       "date": "2026-09-04",
       "awarder": "University of Toyama",
-      "summary": "Recommended for tuition fee exemption for outstanding students."
+      "summary": "Recommended for tuition fee exemption for outstanding students.",
+      "awarderUrl": "https://www.u-toyama.ac.jp/"
     },
     {
       "title": "Excellent Poster Award",
       "date": "2025-08-28",
       "awarder": "2025 Annual Conference on Electronics, Information and Systems (IEEJ 2025)",
       "url": "https://www.iee.jp/eiss/event/conf2025/6#conf-header",
-      "summary": "For <em>Dataset Distillation with Foreground Extraction</em>."
+      "summary": "For <em>Dataset Distillation with Foreground Extraction</em>.",
+      "awarderUrl": "https://www.iee.jp/eiss/event/conf2025"
     }
   ],
   "conferences": [
@@ -158,25 +163,29 @@
       "name": "23rd Pacific Rim International Conference on Artificial Intelligence (PRICAI 2026)",
       "date": "Nov. 16–20, 2026",
       "location": "Guangzhou, China",
-      "summary": "Accepted paper: <em>TriP-AD: Logical Anomaly Detection under Vision-Induced Distractions via Tri-Path Normality Scoring</em>. Upcoming."
+      "summary": "Accepted paper: <em>TriP-AD: Logical Anomaly Detection under Vision-Induced Distractions via Tri-Path Normality Scoring</em>. Upcoming.",
+      "url": "https://2026.pricai.org/"
     },
     {
       "name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)",
       "date": "Jun. 7, 2026",
       "location": "Denver, CO, USA",
-      "summary": "Poster presentation: <em>EVLF: Early Vision-Language Fusion for Generative Dataset Distillation</em>."
+      "summary": "Poster presentation: <a href=\"https://arxiv.org/abs/2603.07476\"><em>EVLF: Early Vision-Language Fusion for Generative Dataset Distillation</em></a>.",
+      "url": "https://cvpr.thecvf.com/Conferences/2026"
     },
     {
       "name": "2025 Annual Conference on Electronics, Information and Systems (IEEJ 2025)",
       "date": "Aug. 27, 2025",
       "location": "Nonoichi, Ishikawa, Japan",
-      "summary": "Poster presentation: <em>Dataset Distillation with Foreground Extraction</em>."
+      "summary": "Poster presentation: <em>Dataset Distillation with Foreground Extraction</em>.",
+      "url": "https://www.iee.jp/eiss/event/conf2025"
     },
     {
       "name": "Seventeenth International Conference on Quality Control by Artificial Vision (QCAV 2025)",
       "date": "Jun. 5, 2025",
       "location": "Kofu, Yamanashi, Japan",
-      "summary": "Oral-session paper (S5-3): <em>Improving the Explainability of Neural Network by Downstream Post-Optimization</em>."
+      "summary": "Oral-session paper (S5-3): <a href=\"https://doi.org/10.1117/12.3076530\"><em>Improving the Explainability of Neural Network by Downstream Post-Optimization</em></a>.",
+      "url": "https://www.tc-iaip.org/qcav/2025/"
     }
   ],
   "talks": [
@@ -185,25 +194,25 @@
       "date": "Feb. 28, 2025",
       "location": "JAIST Kanazawa Ekimae Office, Kanazawa, Japan",
       "url": "https://www.jaist.ac.jp/event/design2025/#program",
-      "summary": "Student Talk, 5th International Symposium on Intelligence Design (ISID 2025)."
+      "summary": "Student Talk, <a href=\"https://www.jaist.ac.jp/event/design2025/\">5th International Symposium on Intelligence Design (ISID 2025)</a>."
     }
   ],
   "skills": [
     {
       "name": "Programming",
       "keywords": [
-        "Python",
-        "C++",
-        "C"
+        "<a href=\"https://www.python.org/\">Python</a>",
+        "<a href=\"https://isocpp.org/\">C++</a>",
+        "<a href=\"https://www.open-std.org/jtc1/sc22/wg14/\">C</a>"
       ]
     },
     {
       "name": "ML Frameworks",
       "keywords": [
-        "PyTorch",
-        "Hugging Face Transformers",
-        "Diffusers",
-        "NumPy"
+        "<a href=\"https://pytorch.org/\">PyTorch</a>",
+        "<a href=\"https://huggingface.co/docs/transformers/\">Hugging Face Transformers</a>",
+        "<a href=\"https://huggingface.co/docs/diffusers/\">Diffusers</a>",
+        "<a href=\"https://numpy.org/\">NumPy</a>"
       ]
     },
     {
@@ -218,16 +227,16 @@
     {
       "name": "Tools",
       "keywords": [
-        "Git",
-        "Linux",
-        "LaTeX"
+        "<a href=\"https://git-scm.com/\">Git</a>",
+        "<a href=\"https://www.kernel.org/\">Linux</a>",
+        "<a href=\"https://www.latex-project.org/\">LaTeX</a>"
       ]
     },
     {
       "name": "AI Agents",
       "keywords": [
-        "Codex",
-        "Claude Code"
+        "<a href=\"https://github.com/openai/codex\">Codex</a>",
+        "<a href=\"https://code.claude.com/docs/en/overview\">Claude Code</a>"
       ]
     }
   ],

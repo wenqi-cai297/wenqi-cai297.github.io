@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I was recommended for **Tuition Fee Exemption for Outstanding Students** at the University of Toyama.
+I was recommended for **Tuition Fee Exemption for Outstanding Students** at the [University of Toyama](https://www.u-toyama.ac.jp/).

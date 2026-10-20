@@ -10,7 +10,7 @@
           <h6 class="title font-weight-bold ml-1 ml-md-4">
             {% if content.url %}<a href="{{ content.url }}">{{ content.title }}</a>{% else %}{{ content.title }}{% endif %}
           </h6>
-          <p class="cv-meta ml-1 ml-md-4">{{ content.awarder }}</p>
+          <p class="cv-meta ml-1 ml-md-4">{% if content.awarderUrl %}<a href="{{ content.awarderUrl }}">{{ content.awarder }}</a>{% else %}{{ content.awarder }}{% endif %}</p>
           <p class="cv-summary ml-1 ml-md-4">{{ content.summary }}</p>
         </div>
       </div>
