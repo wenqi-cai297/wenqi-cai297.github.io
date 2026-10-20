@@ -24,7 +24,7 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -47,6 +47,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-my-paper-has-been-accepted-to-pricai-2026-yaoting-huang-wenqi-cai-yijin-wei-katsuya-hotta-chunzhi-gu-haoran-xie-and-chao-zhang-trip-ad-logical-anomaly-detection-under-vision-induced-distractions-via-tri-path-normality-scoring",
           title: 'My paper has been accepted to PRICAI 2026. Yaoting Huang, Wenqi Cai, Yijin...',
+          description: "",
+          section: "News",},{id: "news-i-was-recommended-for-tuition-fee-exemption-for-outstanding-students-at-the-university-of-toyama",
+          title: 'I was recommended for Tuition Fee Exemption for Outstanding Students at the University...',
           description: "",
           section: "News",},{
         id: 'social-email',
